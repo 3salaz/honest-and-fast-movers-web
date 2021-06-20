@@ -1,0 +1,146 @@
+#landingPage-main{
+  display: flex;
+  background-color: grey;
+  padding: 1em;
+  #figure{
+    height: 100%;
+    background-color: #137C9C;
+    .btn{
+      border-radius: 1em;
+      background-color: #137C9C; 
+    }
+  }
+  #figCaption{
+    background-color: white;
+    color: black;
+    text-align: center;
+    .btn{
+      background-color: rgb(95, 95, 95);
+    }
+    .btn:hover{
+      border: solid #1B7998;
+      transition: .5ms;
+    }
+  }
+  #figCaption h3{
+    color: black;
+  }
+  section{
+    width: 60%;
+    .btn{
+      background-color: aliceblue;
+    }
+  }
+  aside{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #137C9C;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+
+    border-radius: 0 1em 1em 0;
+    width:40%;
+    height: auto;
+    border-left: solid 1em #137C9C;
+    text-align: center;
+    .headerText{
+      font-size: 1.5em;
+      text-align: center;
+    }
+    .header-wrapper{
+      padding: 0 2em;
+    }
+    .description{
+      font-size: 1em;
+      text-align: center;
+    }
+    .selection{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      background-color: white;
+      padding: 1em;
+    }
+    .btn{
+      padding: 0;
+      border: none;
+      box-shadow: 0 1em 6em;
+    }
+    .btn img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+
+
+// 
+// main{
+//   display:flex;
+// }
+// #featured{
+//   background-color: #137C9C;
+//   padding: 0;
+//   margin: 0;
+//   width: 60%;
+// }
+// #figure{
+//   background-color: #137C9C;
+// }
+// #figCaption{
+//   background-color: white;
+//   color: black;
+//   text-align: center;
+// }
+// #figCaption h3{
+//   color: black;
+// }
+// #featured .btn{
+//   border-radius: 1em;
+//   background-color: #137C9C; 
+// }
+// aside{
+//   display:flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   background-color: #137C9C;
+//   padding: 0;
+//   margin: 0 1em;
+//   padding: 1em 0em 0em 0em;
+//   border-radius: 0 1em 1em 0;
+//   width:40%;
+//   height: auto;
+//   border-left: solid .5em;
+//   text-align: center;
+// }
+// aside .header-wrapper{
+//   padding: 0 2em;
+// }
+// aside .headerText{
+//   font-size: 2em;
+//   text-align: center;
+// }
+// aside .description{
+//   font-size: 1em;
+//   text-align: center;
+// }
+// aside .selection{
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-evenly;
+//   background-color: white;
+//   padding: 1em;
+// }
+// aside .btn{
+//   border-radius: 1em;
+//   border: none;
+//   box-shadow: 0 1em 6em;
+// }
+// aside .btn img{
+//   height: 100%;
+//   padding: 0;
+//   margin: 0;
+// }

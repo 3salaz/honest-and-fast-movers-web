@@ -1,0 +1,56 @@
+
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5em 0 .5em 0;
+    #info-desk{
+        padding: 0;
+    }
+    #projectLinks{
+    }
+    .card{
+        background-color: $base-color;
+        margin: 0;
+    }
+    .card-content{
+        overflow: scroll;
+    }
+    .materialboxed{
+        cursor: pointer;
+        border-top: solid 1em $base-color;
+    }
+    .card-action a{
+        color: $sub-color;
+    }
+}
+
+.modal{
+    top: 5%;
+    max-height: 90%;
+    .modal-content{
+        padding: 0;
+    }
+}
+.modalPdf{
+    height: 600px;
+    width: 100%;
+}
+
+
+#homeSocialBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4em 0 0 0;
+    padding: 1em;
+    img{
+        max-height: 6em; 
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .modal{
+        max-height: 90%;
+    }
+}

@@ -1,0 +1,59 @@
+.page-footer{
+    background-color: $base-color;
+    text-align: center;
+}
+.connect-options{
+    display: flex;
+    justify-content: center;
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            margin-right: .5em;
+        }
+    }
+}
+.option-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    button{
+        background-color: white;
+        color: $base-color;
+        a{
+            color: $base-color;
+        }
+    }
+    button:hover{
+        background-color: rgb(212, 210, 88);
+        color: white;
+        a{
+            color: white;
+        }
+    }
+}
+.divider{
+    border: solid white .1em;
+    height: 6em;
+    margin: 0 1em;
+}
+.option-live{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    button{
+        background-color: white;
+        color: $base-color;
+        a{
+            color: $base-color;
+        }
+    }
+    button:hover{
+        background-color: rgb(212, 210, 88);
+        color: white;
+        a{
+            color: white;
+        }
+    }
+}

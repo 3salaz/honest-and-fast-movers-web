@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+#content-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+
+#content-home .card {
+  background-color: #1B7998;
+}
+
+#content-home .card-content {
+  min-height: 600px;
+  overflow: scroll;
+}
+
+#content-home .materialboxed {
+  cursor: pointer;
+  border-top: solid 1em #1B7998;
+}
+
+#content-home .card-action a {
+  color: #1b1b1b;
+}
+
+#homeSocialBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 4em 0 0 0;
+  padding: 1em;
+}
+
+#homeSocialBar img {
+  max-height: 6em;
+}
+
+#content {
+  margin-top: 1em;
+}
+
+#videoLibrary {
+  background-color: white;
+}
+
+#videoLibrary .videoPlayerWrapper {
+  background-color: #424242;
+}
+
+#videoLibrary .sidebarWrapper {
+  background-color: orange;
+}
+
+#videoLibrary .sidebarWrapper header h3 {
+  text-align: center;
+  padding: 0.5em;
+  color: #438fb0;
+  font-size: 2.2em;
+  margin: 0;
+  font-weight: 800;
+  background-color: #fff;
+}
+
+#videoLibrary .sidebarWrapper header .catagories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.nav-background {
+  background-color: #1B7998;
+}
+
+#navBar .nav-wrapper a {
+  color: #1B7998;
+}
+
+#navBar .nav-wrapper .btn {
+  color: white;
+  background-color: #1B7998;
+  font-weight: 500;
+}
+
+#navBar .nav-wrapper .btn:hover {
+  background-color: white;
+  color: #1B7998;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+nav a {
+  color: #1B7998;
+}
+
+#dropdown1 {
+  width: 200px !important;
+}
+
+#dropdown1 li a {
+  color: #1B7998;
+}
+/*# sourceMappingURL=master.css.map */

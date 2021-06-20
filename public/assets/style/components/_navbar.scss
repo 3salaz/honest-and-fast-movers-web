@@ -1,0 +1,32 @@
+#navBar{
+    margin-bottom: 0;
+    .nav-wrapper a{
+        color: $base-color;
+    }
+    .nav-wrapper .btn{
+        color: white;
+        background-color: $base-color;
+        font-weight: 500;
+    }
+    .nav-wrapper .btn:hover{
+        background-color: white;
+        color: $base-color;
+    }
+}
+nav{
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    a{
+        color: $base-color;
+    }
+}
+.categories-wrapper{
+    background-color: $base-color;
+}
+
+#dropdown1{
+    width: 200px!important;
+    li a{
+        color: $base-color;
+    }
+}

@@ -1,0 +1,33 @@
+#content-home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 3em;
+    margin-bottom: 0;
+    .card{
+        background-color: $base-color;
+    }
+    .card-content{
+        min-height: 600px;
+        overflow: scroll;
+    }
+    .materialboxed{
+        cursor: pointer;
+        border-top: solid 1em $base-color;
+    }
+    .card-action a{
+        color: $sub-color;
+    }
+}
+
+#homeSocialBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4em 0 0 0;
+    padding: 1em;
+    img{
+        max-height: 6em; 
+    }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../../style/pages/demos/vidoeLibrary.css" />
+    <title>Video Library</title>
+  </head>
+  <body>
+    <div id="mainContent" class="e-row">
+      <header>
+        <h1>Learning Library</h1>
+      </header>
+      <div id="videoContent" class="e-row">
+        <div id="featuredWrapper" class="e-col-8">
+          <video id="featuredVideo" controls autoplay>
+            <img src="https://via.placeholder.com/150" />
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+          <details open>
+            <summary><h3 id="featuredVideoTitle">Open</h3></summary>
+            <div id="summaryContent">
+              <div class="e-row">
+                <div id="timer"> </div>
+                <ul id="timeStampList">
+                </ul>
+              </div>
+              <footer class="e-row">
+                <div class="e-container">
+                  <div class="e-col-3">
+                    <i id="infoBtn" class="small material-icons">info_outline</i>
+                  </div>
+                  <div class="e-col-6"></div>
+                  <div class="e-col-3">
+                    <img
+                      class="responsive-img"
+                      src="https://static1.squarespace.com/static/5d2d1af89bbd0800019dd9c5/t/5d2e175e39a4ba00014f1dea/1611072250691/?format=1500w"
+                    />
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </details>
+        </div>
+        <aside id="videoListWrapper" class="e-col-4 flexy flex-col flex-center">
+          <header class="e-row">
+            <h2 class="e-col-12">Browse Our Selections</h2>
+          </header>
+          <div class="gallery-wrapper e-row">
+            <div id="buttons" class="e-col-12">
+            </div>
+            <ul id="gallery" class="e-col-12">
+              <iframe id="pdf" class="hide"></iframe>
+            </ul>
+          </div>
+          <div id="toggleWrapper" class="e-row">
+            <div id="toggleSection" class="e-container">
+              <button onclick="loadSlide()">Slides</button>
+              <button onclick="loadAllVideos()">Videos</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+    <script src="../../scripts/videoPlayer.js"></script>
+  </body>
+</html>

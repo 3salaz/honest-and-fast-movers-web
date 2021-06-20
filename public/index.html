@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/materialize-src/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style/master.css" />
+    <title>Earn And Learn | Development</title>
+  </head>
+
+  <body>
+    <div id="navBar" class="row z-depth-5">
+      <div class="container">
+        <img
+          class="responsive-img col s6 l2"
+          src="https://images.squarespace-cdn.com/content/5d2d1af89bbd0800019dd9c5/1563301726385-0J48VTL8IOK6V5G3K38S/earnlearn_logotitle+%281%29.png?content-type=image%2Fpng"
+          id="clientLogo"
+        />
+        <nav class="hide-on-med-and-down col offset-l5 l5">
+          <ul class="nav-wrapper">
+            <li class="nav-list">
+              <a href="./index.html" id="homeBtn" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-list">
+              <a href="./assets/pages/live.html" class="nav-link">Live</a>
+            </li>
+
+            <li class="nav-list">
+              <a href="./assets/pages/references.html" class="nav-link"
+                >References</a
+              >
+            </li>
+
+            <li class="nav-list">
+              <!-- Dropdown Trigger -->
+              <a class="dropdown-trigger btn" href="#" data-target="dropdown1"
+                >Demo</a
+              >
+            </li>
+
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+              <li>
+                <a href="./home.html">Featured Home</a>
+              </li>
+              <li>
+                <a href="./home.html">Featured Home</a>
+              </li>
+            </ul>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo"></ul>
+
+    <!-- CONTENT -->
+    <div id="content-home">
+      <div id="info-desk" class="col s12 m5">
+        <div class="card">
+          <div class="card-content white-text">
+            <span class="card-title"
+              >Welcome,<span id="clientName"></span
+            ></span>
+            <p>
+              I am a very simple card. I am good at containing small bits of
+              information. I am convenient because I require little markup to
+              use effectively.
+            </p>
+          </div>
+          <div class="card-action">
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal1"
+              >View Proposal</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div id="projectLinks" class="col s12 m7">
+        <a target="_blank" href="https://earnlearn.us/">
+          <img
+            class="responsive-img materialboxed z-depth-5"
+            src="assets/img/website.png"
+          />
+        </a>
+        <ul id="homeSocialBar">
+          <li class="socialLink">
+            <a target="_blank" href=""></a
+            ><img
+              class="responsive-img"
+              src="./assets/img/xd-icon.png"
+              alt=""
+            />
+          </li>
+          <li class="socialLink">
+            <a target="_blank" href=""
+              ><img
+                class="responsive-img"
+                src="./assets/img/google-drive-icon.png"
+                alt=""
+            /></a>
+          </li>
+          <li class="socialLink">
+            <a target="_blank" href=""
+              ><img
+                class="responsive-img"
+                src="./assets/img/github-icons.png"
+                alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="./assets/vendors/materialize-src/js/bin/materialize.min.js"></script>
+    <script src="./assets/scripts/main.js"></script>
+    <script src="./assets/scripts/home.js"></script>
+  </body>
+</html>
